@@ -53,7 +53,7 @@ The project leverages a detailed data model derived from the HURSAT-B1 dataset. 
 
 ```bash
 # Clone the repository
-git clone https://github
+git clone https://github.com/PGuffey/Hurricane-Image-and-Data-Analysis-HURSAT-Data-.git
 
 # Install dependencies
 pip install -r requirements.txt
