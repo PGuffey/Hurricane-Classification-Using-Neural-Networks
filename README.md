@@ -27,6 +27,7 @@ This project aims to analyze key characteristics of hurricanes and make predicti
 
 ### Machine Learning and Deep Learning
 
+- **Convolutional Neural Network**: Utilized for image analysis.
 - **Dense Neural Network**: Utilized in different scenarios to classify hurricanes with data other than windspeed.
 - **RandomForestRegressor**: Implemented for imputing missing values in key columns, ensuring data integrity.
 - **Predictive Modeling**: Utilized advanced machine learning algorithms to predict hurricane characteristics.
