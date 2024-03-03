@@ -6,7 +6,7 @@ This project aims to analyze key characteristics of hurricanes and make predicti
 
 ## Dataset Overview
 
-- **HURSAT-B1 Dataset**: Contains raw satellite observations from the ISCCP B1 data, focused on tropical cyclones from 1978 to 2016.
+- **HURSAT-B1 Dataset**: The data used in this analysis is part of the [HURSAT_B1 Dataset](https://www.ncei.noaa.gov/products/hurricane-satellite-data) from the National Center for Environmental Information - NOAA. It contains raw satellite observations from the ISCCP B1 data, focused on tropical cyclones from 1978 to 2016. 
 - **Resolution and Coverage**: The data is gridded to approximately 8km resolution and available at 3-hour intervals.
 - **Parameters**: Includes infrared and visible satellite channels, with brightness temperatures and other meteorological variables.
 
@@ -25,8 +25,9 @@ This project aims to analyze key characteristics of hurricanes and make predicti
 - **Outlier Detection**: Identified and treated outliers in the dataset using statistical methods.
 - **Data Transformation**: Standardized and normalized data to prepare for machine learning models.
 
-### Machine Learning
+### Machine Learning and Deep Learning
 
+- **Dense Neural Network**: Utilized in different scenarios to classify hurricanes with data other than windspeed.
 - **RandomForestRegressor**: Implemented for imputing missing values in key columns, ensuring data integrity.
 - **Predictive Modeling**: Utilized advanced machine learning algorithms to predict hurricane characteristics.
 
@@ -52,7 +53,7 @@ The project leverages a detailed data model derived from the HURSAT-B1 dataset. 
 
 ```bash
 # Clone the repository
-git clone https://git.cs.slu.edu/zdavidson/cs_1070_final_project.git
+git clone https://github.com/PGuffey/Hurricane-Image-and-Data-Analysis-HURSAT-Data-.git
 
 # Install dependencies
 pip install -r requirements.txt
